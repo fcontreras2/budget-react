@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Note from "components/note";
-import 'styles/styles.scss';
-import { http } from "services/http";
-import ListItem from 'components/list-item';
-import NoteDate from 'components/note-date';
-import NoteCard from 'components/note-card';
+import Note from "@components/note";
+import '@styles/styles.scss';
+import { http } from "@services/http";
+import ListItem from '@components/list-item';
+import NoteDate from '@components/note-date';
+import NoteCard from '@components/note-card';
 
 export default class Notes extends Component {
   constructor(props) {
