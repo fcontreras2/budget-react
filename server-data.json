@@ -1,8 +1,46 @@
 {
-  "list": [
+  "expenses": [
     {
       "id": 0,
-      "text": "Item example"
+      "title": "Item",
+      "price": "12"
+    },
+    {
+      "id": 2,
+      "title": "Item",
+      "price": "22"
+    },
+    {
+      "id": 3,
+      "title": "Item",
+      "price": "32"
+    },
+    {
+      "id": 4,
+      "title": "Item",
+      "price": "42"
+    }
+  ], 
+  "income": [
+    {
+      "id": 0,
+      "title": "Item",
+      "price": "22"
+    },
+    {
+      "id": 2,
+      "title": "Item",
+      "price": "32"
+    },
+    {
+      "id": 3,
+      "title": "Item",
+      "price": "42"
+    },
+    {
+      "id": 4,
+      "title": "Item",
+      "price": "52"
     }
   ]
 }

@@ -1,8 +1,9 @@
 import axios from "axios";
 import env from "@enviroments";
 
+  // Get a reference to the database service
 const instance = axios.create({
-  baseURL: env.api,
+  baseURL: env.api +  '/',
   timeout: 1000,
   responseType: 'json',
   headers: {
